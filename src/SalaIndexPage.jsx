@@ -1,6 +1,6 @@
 import Header from './components/Header.jsx';
 import Sidebar from './components/Sidebar.jsx';
-import ContentMenuReserva from './components/ContentMenuReserva.jsx';
+import ContentMenuReserva from './components/SalaIndex.jsx';
 import {Box , Stack} from "@mui/material";
 
 

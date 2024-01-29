@@ -24,7 +24,7 @@ const ContentMenuReserva = () => {
     const handleSubmit = (event) => {
         event.preventDefault();
 
-        // Verificar si todos los campos están llenos
+      
         if (Object.values(formData).some((value) => value.trim() === '')) {
             setError('Por favor, complete todos los campos.');
         } else {
@@ -35,7 +35,7 @@ const ContentMenuReserva = () => {
 
     const handleCloseConfirmation = () => {
         setShowConfirmation(false);
-        setError(''); // Limpiar el mensaje de error al cerrar la confirmación
+        setError(''); 
     };
 
     return (
@@ -210,14 +210,14 @@ const ContentMenuReserva = () => {
                             marginLeft: '-10px'
                         }}>
                             <Paper sx={{
-                                borderRadius: '0', // Eliminar bordes
-                                padding: '20px', // Ajustar según sea necesario
-                                boxShadow: 'none', // Eliminar la sombra
+                                borderRadius: '0', 
+                                padding: '20px', 
+                                boxShadow: 'none', 
                             }}>
                                 <img
                                     src="https://cdn.apis.cineplanet.com.pe/CDN/media/entity/get/FilmPosterGraphic/HO00001896?referenceScheme=HeadOffice&allowPlaceHolder=true"
                                     alt="Imagen"
-                                    style={{ maxWidth: '100%', height: 'auto' }}
+                                    style={{ maxWidth: '70%', height: 'auto' }}
                                 />
                             </Paper>
                         </Box>
