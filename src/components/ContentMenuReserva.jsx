@@ -210,14 +210,14 @@ const ContentMenuReserva = () => {
                             marginLeft: '-10px'
                         }}>
                             <Paper sx={{
-                                borderRadius: '0', // Eliminar bordes
-                                padding: '20px', // Ajustar según sea necesario
-                                boxShadow: 'none', // Eliminar la sombra
+                                borderRadius: '0', 
+                                padding: '20px', 
+                                boxShadow: 'none', 
                             }}>
                                 <img
                                     src="https://cdn.apis.cineplanet.com.pe/CDN/media/entity/get/FilmPosterGraphic/HO00001896?referenceScheme=HeadOffice&allowPlaceHolder=true"
                                     alt="Imagen"
-                                    style={{ maxWidth: '100%', height: 'auto' }}
+                                    style={{ maxWidth: '70%', height: 'auto' }}
                                 />
                             </Paper>
                         </Box>
